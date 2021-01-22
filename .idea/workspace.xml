@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b55dab44-9018-4b1c-b383-c8464ecf9ec2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/QianKunDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/src/shared/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microFrontEnd-qiankun-master/container/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/microFrontEnd-qiankun-master/container/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microFrontEnd-qiankun-master/container/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/microFrontEnd-qiankun-master/container/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microFrontEnd-qiankun-master/container/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/microFrontEnd-qiankun-master/container/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microFrontEnd-qiankun-master/container/src/config/appList.js" beforeDir="false" afterPath="$PROJECT_DIR$/microFrontEnd-qiankun-master/container/src/config/appList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microFrontEnd-qiankun-master/container/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/microFrontEnd-qiankun-master/container/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microFrontEnd-qiankun-master/container/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/microFrontEnd-qiankun-master/container/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/src/layout/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/src/layout/components/Navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/src/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/src/permission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-app1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-app1/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-app1/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-app1/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-app2/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-app2/vue.config.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="132">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/container/vue.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/container/src/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/container/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/container/src/store/modules/common.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/container/src/store/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/src/shared/actions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/container/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/src/layout/components/Navbar.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-app2/vue.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/vue.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <marker date="1610937894213" expanded="true" signature="737:773" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>8083</find>
+      <find>localhost</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/microFrontEnd-qiankun-master/container/src/config/appList.js" />
+        <option value="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin2/vue.config.js" />
+        <option value="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-app1/package.json" />
+        <option value="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-app1/vue.config.js" />
+        <option value="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/jest.config.js" />
+        <option value="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-app2/vue.config.js" />
+        <option value="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/vue.config.js" />
+        <option value="$PROJECT_DIR$/microFrontEnd-qiankun-master/container/vue.config.js" />
+        <option value="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/src/permission.js" />
+        <option value="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/src/layout/components/Navbar.vue" />
+        <option value="$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/src/shared/actions.js" />
+        <option value="$PROJECT_DIR$/microFrontEnd-qiankun-master/container/package.json" />
+        <option value="$PROJECT_DIR$/microFrontEnd-qiankun-master/container/src/store/index.js" />
+        <option value="$PROJECT_DIR$/microFrontEnd-qiankun-master/container/src/App.vue" />
+        <option value="$PROJECT_DIR$/microFrontEnd-qiankun-master/container/src/main.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="58" />
+    <option name="y" value="300" />
+    <option name="width" value="926" />
+    <option name="height" value="1015" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="QianKunDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QianKunDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QianKunDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QianKunDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microFrontEnd-qiankun-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QianKunDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QianKunDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microFrontEnd-qiankun-master" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QianKunDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QianKunDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microFrontEnd-qiankun-master" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QianKunDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QianKunDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microFrontEnd-qiankun-master" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QianKunDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QianKunDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microFrontEnd-qiankun-master" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QianKunDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QianKunDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microFrontEnd-qiankun-master" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QianKunDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QianKunDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microFrontEnd-qiankun-master" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-admin1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QianKunDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QianKunDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microFrontEnd-qiankun-master" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-admin1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QianKunDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QianKunDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microFrontEnd-qiankun-master" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-admin1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QianKunDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QianKunDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microFrontEnd-qiankun-master" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-admin1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QianKunDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QianKunDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microFrontEnd-qiankun-master" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-admin2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QianKunDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QianKunDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microFrontEnd-qiankun-master" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-app1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QianKunDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QianKunDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microFrontEnd-qiankun-master" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-app1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QianKunDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QianKunDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microFrontEnd-qiankun-master" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-app1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QianKunDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QianKunDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microFrontEnd-qiankun-master" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-app2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QianKunDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QianKunDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="microFrontEnd-qiankun-master" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-app2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microFrontEnd-qiankun-copy" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b55dab44-9018-4b1c-b383-c8464ecf9ec2" name="Default Changelist" comment="" />
+      <created>1610934455307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610934455307</updated>
+      <workItem from="1610934457082" duration="13258000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13258000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="58" y="300" width="926" height="1015" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3679558" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298193" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26385543" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33853006" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3679558" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298193" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26385543" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33853006" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_13.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-app2/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin2/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin2/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-app1/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-app1/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-app1/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-app1/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/container/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/container/src/router/routers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-app1/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/jest.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin2/dist/static/js/chunk-vendors.1cb7cd40.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="68" column="422265" selection-start-line="68" selection-start-column="422265" selection-end-line="68" selection-end-column="422265" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/container/src/config/appList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/src/permission.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="105" column="14" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#2660#2689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/src/layout/components/Navbar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <marker date="1610937894213" expanded="true" signature="737:773" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-app2/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/container/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/container/src/store/modules/common.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/container/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/vue-admin1/src/shared/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/container/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/container/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microFrontEnd-qiankun-master/container/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

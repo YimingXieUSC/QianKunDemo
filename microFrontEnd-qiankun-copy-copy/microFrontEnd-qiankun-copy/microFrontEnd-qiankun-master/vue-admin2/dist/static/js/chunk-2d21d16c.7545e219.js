@@ -1,0 +1,2 @@
+(window["webpackJsonp_vue-admin2"]=window["webpackJsonp_vue-admin2"]||[]).push([["chunk-2d21d16c"],{d08b:function(e,n,u){"use strict";u.r(n);var l=function(){var e=this,n=e.$createElement,u=e._self._c||n;return u("div",[e._v("多级菜单 -> 二级-1")])},t=[],a={name:"level_2_1"},c=a,d=u("2877"),i=Object(d["a"])(c,l,t,!1,null,null,null);n["default"]=i.exports}}]);
+//# sourceMappingURL=chunk-2d21d16c.7545e219.js.map

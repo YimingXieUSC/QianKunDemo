@@ -10,6 +10,7 @@
       <el-menu-item index="/vue-admin1">vue-element-admin</el-menu-item>
       <el-menu-item index="/vue-admin2">iview-admin</el-menu-item>
     </el-menu>
+    <el-button>Logout</el-button>
 
     <router-view></router-view>
 

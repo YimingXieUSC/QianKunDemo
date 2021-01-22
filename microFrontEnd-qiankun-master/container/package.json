@@ -11,6 +11,7 @@
     "core-js": "^2.6.5",
     "element-ui": "2.13.2",
     "iview": "3.5.4",
+    "keycloak-js": "^10.0.0",
     "normalize.css": "8.0.1",
     "qiankun": "2.1.0",
     "vue": "^2.6.10",
