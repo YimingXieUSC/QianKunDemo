@@ -56,12 +56,14 @@ function render(props = {}) {
 }
 // 解决子项目不能独立访问的问题 根据访问来源，执行不同渲染方法
 if (!window.__POWERED_BY_QIANKUN__) {
+  console.log('NOT powered by Qiankun')
   render();
 }
 // 解决基础路径不正确的问题
 if (window.__POWERED_BY_QIANKUN__) {
   // 动态添加publicPath
   // eslint-disable-next-line no-undef
+  console.log('Powered by Qiankun')
   __webpack_public_path__ = window.__INJECTED_PUBLIC_PATH_BY_QIANKUN__;
 }
 // 启动

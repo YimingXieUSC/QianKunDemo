@@ -8,7 +8,15 @@ export default [
     entry: '//192.168.11.191:8081',
     // entry: '//localhost:8081',
     container: '#subApp-container',
-    activeRule: genActiveRule('/vue-app1')
+    activeRule: genActiveRule('/vue-app1'),
+    childNode: [
+      {
+        name: 'nami-vue',
+        entry: '//192.168.11.191:7899',
+        container: '#subApp-container',
+        activeRule: genActiveRule('/nami-vue')
+      }
+    ]
   },
   {
     name: 'nami-vue',
@@ -21,7 +29,7 @@ export default [
     entry: '//192.168.11.191:8082',
     container: '#subApp-container',
     activeRule: genActiveRule('/vue-app2')
-  },
+  }                       ,
   {
     name: 'vue-admin1',
     entry: '//192.168.11.191:8888',
@@ -39,5 +47,11 @@ export default [
         entry: '//192.168.11.191:9526',
         container: '#subApp-container',
         activeRule: genActiveRule('/vue-admin-frontend')
-    }
+    },
+  {
+    name: 'antd-admin',
+    entry:'//192.168.11.191:7051',
+    container: '#subApp-container',
+    activeRule: genActiveRule('/antd-admin')
+  }
 ]

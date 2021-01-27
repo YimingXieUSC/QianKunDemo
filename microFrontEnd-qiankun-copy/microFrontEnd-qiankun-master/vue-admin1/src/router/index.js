@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-Vue.use(Router)
+Vue.use(Router);
 
 /* Layout */
 import Layout from '@/layout'
@@ -73,16 +73,29 @@ export const constantRoutes = [
   {
     path: '/',
     component: Layout,
-    redirect: '/dashboard',
+    redirect: '/form',
     children: [
       {
-        path: 'dashboard',
-        component: () => import('@/views/dashboard/index'),
-        name: 'Dashboard',
-        meta: { title: 'Dashboard', icon: 'dashboard', affix: true }
+        path: 'form',
+        component: () => import('@/views/form/index'),
+        name: 'Form',
+        meta: { title: 'Form', icon: 'form' }
       }
     ]
   },
+  // {
+  //   path: '/',
+  //   component: Layout,
+  //   redirect: '/dashboard',
+  //   children: [
+  //     {
+  //       path: 'dashboard',
+  //       component: () => import('@/views/dashboard/index'),
+  //       name: 'Dashboard',
+  //       meta: { title: 'Dashboard', icon: 'dashboard', affix: true }
+  //     }
+  //   ]
+  // },
   // {
   //   path: '/documentation',
   //   component: Layout,
@@ -182,19 +195,6 @@ export const asyncRoutes = [
       }
     ]
   },
-
-  // {
-  //   path: '/icon',
-  //   component: Layout,
-  //   children: [
-  //     {
-  //       path: 'index',
-  //       component: () => import('@/views/icons/index'),
-  //       name: 'Icons',
-  //       meta: { title: 'Icons', icon: 'icon', noCache: true }
-  //     }
-  //   ]
-  // },
 
   /** when your routing map is too long, you can split it into small modules **/
   // componentsRouter,
@@ -407,11 +407,11 @@ const createRouter = () => new Router({
   routes: constantRoutes
 })
 
-const router = createRouter()
+const router = createRouter();
 
 // Detail see: https://github.com/vuejs/vue-router/issues/1234#issuecomment-357941465
 export function resetRouter() {
-  const newRouter = createRouter()
+  const newRouter = createRouter();
   router.matcher = newRouter.matcher // reset router
 }
 

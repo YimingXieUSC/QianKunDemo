@@ -1,5 +1,41 @@
 <template>
   <div id="app123">
+<!--          <el-menu mode="horizontal"-->
+<!--                  :default-active="currentApp"-->
+<!--                  background-color="#545c64"-->
+<!--                  text-color="#fff"-->
+<!--                  class="el-menu-vertical-demo"-->
+<!--                   active-text-color="#96D9B9"-->
+<!--                  :collapse="collapsed"-->
+<!--                  :unique-opened="true" :router="true">-->
+<!--              &lt;!&ndash;check whether the first level contains child node: if not&ndash;&gt;-->
+<!--              <el-menu-item :index="'/' + child1.name" v-for="child1 in tmpList" :key="child1.name" v-if="!child1.childNode">               -->
+<!--                  <span slot="title" >{{ child1.name }}</span>-->
+<!--              </el-menu-item>-->
+<!--              &lt;!&ndash;check whether the first level contains child node: if so&ndash;&gt;-->
+<!--              <el-submenu :index="'/'+ child1.name" v-for="child1 in tmpList" :key="child1.name" v-if="child1.childNode">-->
+<!--                  &lt;!&ndash;check whether the second level contains child node: if not&ndash;&gt;-->
+<!--                  <el-menu-item :index="'/'+child2.name" v-for="child2 in child1.childNode" :key="child2.name" v-if="!child2.childNode" class="menuTwo">-->
+<!--                      {{child2.name}}-->
+<!--                  </el-menu-item>-->
+<!--                  <template slot="title" v-if="child1.childNode" >-->
+<!--                      <span slot="title">{{child1.name}}</span>-->
+<!--                  </template>-->
+<!--                  &lt;!&ndash;check whether the second level contains child node: if s&ndash;&gt;-->
+<!--                  <el-submenu :index="'/' + child2.name" v-for="child2 in child1.childNode" :key="child2.id" v-if="child2.childNode" class="menuTwo">-->
+<!--                      <template slop="title">-->
+<!--                          <span slot="title">{{child2.name}}</span>-->
+<!--                      </template>-->
+<!--                      &lt;!&ndash;check whether it is the third level&ndash;&gt;-->
+<!--                      <el-menu-item-group class="menuThree">-->
+<!--                          <el-menu-item :index="'/' + child3.name" v-for="child3 in child2.childNOde" :key="child3.name">-->
+<!--                              {{child3.name}}-->
+<!--                          </el-menu-item>-->
+<!--                      </el-menu-item-group>-->
+<!--                  </el-submenu>-->
+<!--              </el-submenu>-->
+<!--          </el-menu>-->
+      <div id="main-menu">
       <el-menu :default-active="currentApp"
                :router="true"
                mode="horizontal"
@@ -17,11 +53,12 @@
         <template slot="title">User</template>
 <!--        <el-menu-item index="user" v-bind="userName">-->
 <!--          <span>Welcome, {{userName}}</span>-->
-<!--        </el-menu-item>-->
+<!--        </el-menu-item                                          >-->
         <el-menu-item index="logout" @click="logoutPage">Logout</el-menu-item>
       </el-submenu>
         <div style="padding-top: 10px; padding-left: 50px"><el-avatar :size="40" :src="circleUrl"></el-avatar></div>
     </el-menu>
+      </div>
     <router-view></router-view>
 
     <!-- 下面的容器用于挂载子应用 不能删除 -->
@@ -54,7 +91,8 @@ export default {
   },
   mounted() {
     this.currentApp = getCurrentApp() ? getCurrentApp() : '/';
-    console.log('!!!!!!!!!', finalAppList);
+    console.log('finalAppList', finalAppList);
+
   }
 }
 </script>
@@ -70,6 +108,6 @@ export default {
   }
   #subApp-container {
     height: calc(100% - 61px);
-    overflow: hidden;
+    overflow: scroll;
   }
 </style>

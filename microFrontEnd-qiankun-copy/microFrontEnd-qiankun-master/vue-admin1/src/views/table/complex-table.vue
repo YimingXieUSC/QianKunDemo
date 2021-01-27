@@ -2,7 +2,7 @@
   <div class="app-container">
 
     <div style="height: 20px" />
-
+    <frozen-loan/>
     <div class="filter-info">
       <el-button class="filter-button" style="margin-left: 10px;" type="primary" icon="el-icon-view" @click="handleReturnLoan">
         Return Loan Today
@@ -300,21 +300,22 @@ import VueSimpleAlert from 'vue-simple-alert'
 import FilenameOption from '../excel/components/FilenameOption'
 import AutoWidthOption from '../excel/components/AutoWidthOption'
 import BookTypeOption from '../excel/components/BookTypeOption'
+import FrozenLoan from './frozen-loan.vue'
 
-const moment = require('moment');
+const moment = require('moment')
 
-const now = moment();
-var dateStr = now.format('YYYY-MM-DD');
-const defaultFormThead = ['portfolio_id', 'symbol', 'date', 'long_pos', 'stock_loan', 'credit_long', 'com_pnl', 'comment', 'frozen_loan'];
-const defaultFormThead2 = ['portfolio_id', 'symbol', 'quantity', 'begin', 'end', 'interest_rate', 'expected_end', 'create_time', 'comment'];
+const now = moment()
+var dateStr = now.format('YYYY-MM-DD')
+const defaultFormThead = ['portfolio_id', 'symbol', 'date', 'long_pos', 'stock_loan', 'credit_long', 'com_pnl', 'comment', 'frozen_loan']
+const defaultFormThead2 = ['portfolio_id', 'symbol', 'quantity', 'begin', 'end', 'interest_rate', 'expected_end', 'create_time', 'comment']
 const defaultFormThead3 = ['portfolio_id', 'initSum', 'loanQuantity']
 const defaultFormThead4 = ['id', 'message']
-const defaultFormThead5 = ['portfolio_id', 'symbol', 'long_pos', 'stock_loan', 'initSum', 'init_time', 'stock_begin', 'stock_end', 'loanQuantity'];
+const defaultFormThead5 = ['portfolio_id', 'symbol', 'long_pos', 'stock_loan', 'initSum', 'init_time', 'stock_begin', 'stock_end', 'loanQuantity']
 
 export default {
   name: 'ComplexTable',
   // eslint-disable-next-line vue/no-unused-components
-  components: { Pagination, UploadExcelComponent, VueSimpleAlert, FilenameOption, AutoWidthOption, BookTypeOption },
+  components: { Pagination, UploadExcelComponent, VueSimpleAlert, FilenameOption, AutoWidthOption, BookTypeOption, FrozenLoan },
   directives: { waves },
   data() {
     return {

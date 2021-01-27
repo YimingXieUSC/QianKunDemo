@@ -20,6 +20,11 @@ export function getInistPos(date) {
 
 export function getLoan(date) {
   return request({
+    // VUE_APP_STOCK_API_URL = 'http://192.168.11.109:3000'
+    // VUE_APP_STOCK_API_URL_backup = 'http://192.168.11.191:8097'
+    // VUE_APP_STOCK_API_URL_BACK = 'http://192.168.11.109:3000'
+    // VUE_APP_MARKET_API_URL = 'http://192.168.11.109:3000'
+
     url: process.env.VUE_APP_STOCK_API_URL_BACK + '/api/tops/loans?date=' + date,
     method: 'get'
   })
@@ -28,7 +33,7 @@ export function getLoan(date) {
 // GET init_positions API info by date
 export function getInitPos(date) {
   return request({
-    url: process.env.VUE_APP_STOCK_API_URL + '/api/v1/init_positions?date=' + date,
+    url: process.env.VUE_APP_STOCK_API_URL_backup + '/api/v1/init_positions?date=' + date,
     method: 'get'
   })
 }
@@ -43,7 +48,7 @@ export function getInitPosById(id) {
 // GET stock loan API info
 export function getStockLoans() {
   return request({
-    url: process.env.VUE_APP_STOCK_API_URL + '/api/v1/stock_loans',
+    url: process.env.VUE_APP_STOCK_API_URL_backup + '/api/v1/stock_loans',
     method: 'get'
   })
 }
